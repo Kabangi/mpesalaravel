@@ -4,7 +4,7 @@ namespace Kabangi\MpesaLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
-class MpesaServiceProvider extends RootProvider{
+class MpesaServiceProvider extends ServiceProvider{
     /**
      * Bootstrap the application services.
      */
