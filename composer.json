@@ -1,0 +1,49 @@
+{
+    "name": "kabangi/mpesa/laravel",
+    "description": "Laravel M-Pesa API implementation",
+    "type": "library",
+    "keywords": ["mpesa", "safaricom", "laravel", "transactions", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kabangi",
+            "email": "kabangijulius@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/Kabangi/mpesa",
+            "type": "vcs"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kabangi\\Mpesa\\Laravel\\": "src/"
+        }
+    },
+     "autoload-dev": {
+        "psr-4": {
+            "Kabangi\\Mpesa\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kabangi\\Mpesa\\Laravel\\MpesaServiceProvider"
+            ],
+            "aliases": {
+                "MPESA": "Kabangi\\Mpesa\\Laravel\\Facades\\Mpesa"
+            }
+        }
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/support": "^5.2",
+        "kabangi/mpesa": "dev-dev"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "~5.7|~6.2"
+    },
+    "minimum-stability": "stable"
+}
