@@ -10,12 +10,6 @@
             "email": "kabangijulius@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "url": "https://github.com/Kabangi/mpesa",
-            "type": "vcs"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Kabangi\\MpesaLaravel\\": "src/"
@@ -39,7 +33,7 @@
     "require": {
         "php": ">=5.6.0",
         "illuminate/support": "^5.2",
-        "kabangi/mpesa": "dev-dev"
+        "kabangi/mpesa": "^2.0"
     },
     "require-dev": {
         "mockery/mockery": "dev-master",
