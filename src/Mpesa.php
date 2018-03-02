@@ -1,10 +1,10 @@
 <?php
 
-namespace Kabangi\Mpesa\Laravel;
+namespace Kabangi\MpesaLaravel;
 
 use Kabangi\Mpesa\Engine\Core;
-use Kabangi\Mpesa\Laravel\Cache;
-use Kabangi\Mpesa\Laravel\Config;
+use Kabangi\MpesaLaravel\Cache;
+use Kabangi\MpesaLaravel\Config;
 use Kabangi\Mpesa\Engine\MpesaTrait;
 use Kabangi\Mpesa\Auth\Authenticator;
 use Kabangi\Mpesa\Engine\CurlRequest;

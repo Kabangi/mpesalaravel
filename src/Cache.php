@@ -1,6 +1,6 @@
 <?php
 
-namespace Kabangi\Mpesa\Laravel;
+namespace Kabangi\MpesaLaravel;
 
 use Illuminate\Cache\Repository;
 use Kabangi\Mpesa\Contracts\CacheStore;

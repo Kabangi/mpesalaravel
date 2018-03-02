@@ -1,6 +1,6 @@
 <?php 
 
-namespace Kabangi\Mpesa\Laravel\Mpesa\Facades;
+namespace Kabangi\MpesaLaravel\Mpesa\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -12,6 +12,6 @@ class Mpesa extends Facade {
 	 * @return string
 	 */
 	protected static function getFacadeAccessor() {
-        	return 'Kabangi\Mpesa\Laravel\Mpesa';	 
+        	return 'Kabangi\MpesaLaravel\Mpesa';	 
 	}
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Kabangi\Mpesa\Laravel;
+namespace Kabangi\MpesaLaravel;
 
 use Illuminate\Config\Repository;
 use Kabangi\Mpesa\Contracts\ConfigurationStore;

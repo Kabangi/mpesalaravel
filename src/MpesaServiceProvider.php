@@ -1,6 +1,6 @@
 <?php
 
-namespace Kabangi\Mpesa\Laravel;
+namespace Kabangi\MpesaLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -21,7 +21,7 @@ class MpesaServiceProvider extends RootProvider{
      * 
      */
     public function register(){
-        $this->app->bind('Kabangi\Mpesa\Laravel\Mpesa', function ($app) {
+        $this->app->bind('Kabangi\MpesaLaravel\Mpesa', function ($app) {
             $config = $app['config']->get('mpesa');
             return new Mpesa($config);
         });

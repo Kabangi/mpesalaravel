@@ -18,21 +18,21 @@
     ],
     "autoload": {
         "psr-4": {
-            "Kabangi\\Mpesa\\Laravel\\": "src/"
+            "Kabangi\\MpesaLaravel\\": "src/"
         }
     },
      "autoload-dev": {
         "psr-4": {
-            "Kabangi\\Mpesa\\Tests\\": "tests/"
+            "Kabangi\\MpesaLaravel\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Kabangi\\Mpesa\\Laravel\\MpesaServiceProvider"
+                "Kabangi\\MpesaLaravel\\MpesaServiceProvider"
             ],
             "aliases": {
-                "MPESA": "Kabangi\\Mpesa\\Laravel\\Facades\\Mpesa"
+                "MPESA": "Kabangi\\MpesaLaravel\\Facades\\Mpesa"
             }
         }
     },
