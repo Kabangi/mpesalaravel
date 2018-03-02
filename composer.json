@@ -1,5 +1,5 @@
 {
-    "name": "kabangi/mpesa/laravel",
+    "name": "kabangi/mpesa-laravel",
     "description": "Laravel M-Pesa API implementation",
     "type": "library",
     "keywords": ["mpesa", "safaricom", "laravel", "transactions", "api"],
