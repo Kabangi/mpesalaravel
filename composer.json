@@ -45,5 +45,5 @@
         "mockery/mockery": "dev-master",
         "phpunit/phpunit": "~5.7|~6.2"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
