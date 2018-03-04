@@ -1,11 +1,10 @@
 <?php 
 
-namespace Kabangi\MpesaLaravel\Mpesa\Facades;
+namespace Kabangi\MpesaLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 class Mpesa extends Facade {
-
 	/**
 	 * Get the registered name of the component.
 	 *
