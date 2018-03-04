@@ -3,6 +3,7 @@
 namespace Kabangi\MpesaLaravel;
 
 use Illuminate\Support\ServiceProvider;
+use Kabangi\Mpesa\Init as Mpesa;
 
 class MpesaServiceProvider extends ServiceProvider{
     /**
