@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b995c2055b4141cd05b0426d681960de",
+    "content-hash": "502813e3ac894a7b3bc088dadbeda06e",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -176,16 +176,16 @@
         },
         {
             "name": "kabangi/mpesa",
-            "version": "dev-dev",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kabangi/mpesa.git",
-                "reference": "5b73a854472a8bcf4c99904201fa73fe811bc9a3"
+                "reference": "4d28f4e521167e24d1713cb01ad4e82ac2443401"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kabangi/mpesa/zipball/5b73a854472a8bcf4c99904201fa73fe811bc9a3",
-                "reference": "5b73a854472a8bcf4c99904201fa73fe811bc9a3",
+                "url": "https://api.github.com/repos/Kabangi/mpesa/zipball/4d28f4e521167e24d1713cb01ad4e82ac2443401",
+                "reference": "4d28f4e521167e24d1713cb01ad4e82ac2443401",
                 "shasum": ""
             },
             "require": {
@@ -202,11 +202,7 @@
                     "Kabangi\\Mpesa\\": "src/Mpesa/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Kabangi\\Mpesa\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -227,11 +223,7 @@
                 "safaricom",
                 "transactions"
             ],
-            "support": {
-                "source": "https://github.com/Kabangi/mpesa/tree/dev",
-                "issues": "https://github.com/Kabangi/mpesa/issues"
-            },
-            "time": "2018-03-02T10:56:27+00:00"
+            "time": "2018-03-02T12:23:33+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -620,12 +612,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "7d13bea24dab46c5488dfcc90df054c64caada55"
+                "reference": "ebe99477df3022fe33a03b0435a96ae944e69bbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/7d13bea24dab46c5488dfcc90df054c64caada55",
-                "reference": "7d13bea24dab46c5488dfcc90df054c64caada55",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/ebe99477df3022fe33a03b0435a96ae944e69bbc",
+                "reference": "ebe99477df3022fe33a03b0435a96ae944e69bbc",
                 "shasum": ""
             },
             "require": {
@@ -678,7 +670,7 @@
                 "test double",
                 "testing"
             ],
-            "time": "2018-02-27T20:29:57+00:00"
+            "time": "2018-03-02T15:34:31+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -2087,7 +2079,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "kabangi/mpesa": 20,
         "mockery/mockery": 20
     },
     "prefer-stable": false,
