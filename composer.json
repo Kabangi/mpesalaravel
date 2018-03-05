@@ -33,7 +33,7 @@
     "require": {
         "php": ">=5.6.0",
         "illuminate/support": "^5.2",
-        "kabangi/mpesa": "^2.0"
+        "kabangi/mpesa": ">=2.0.2"
     },
     "require-dev": {
         "mockery/mockery": "dev-master",
