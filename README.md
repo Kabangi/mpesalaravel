@@ -2,7 +2,7 @@
 
 This is a wrapper implementation from this package https://github.com/Kabangi/mpesa
 
-## Installation (Tested on 5.2)
+## Installation
 1) In order to install mpesalaravel, just add the following to your composer.json. Then run `composer update`:
 
 ```json
